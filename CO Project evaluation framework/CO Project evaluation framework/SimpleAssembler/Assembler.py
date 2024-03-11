@@ -421,7 +421,7 @@ def Chk_Label_Instr(line):
 
 
 lines = [line.strip() for line in fh1.readlines()]
-
+lines = list(filter(None, lines))
 line_count = 1
 virtual_halt = 'beq zero,zero,0'
 
