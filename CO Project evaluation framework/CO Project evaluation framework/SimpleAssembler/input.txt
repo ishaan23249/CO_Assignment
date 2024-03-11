@@ -1,2 +1,0 @@
-add s2,s3s5
-beq zeo,zero,0
